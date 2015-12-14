@@ -5,7 +5,6 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 * Download and install [Neard](https://github.com/crazy-max/neard).
 * If you already have installed Neard, stop it.
 * Download [a MariaDB bundle](#download).
-* Download one of the available MariaDB bundles.
 * Extract archive in `neard\bin\mariadb\`. Directory structure example :
 
 ```
