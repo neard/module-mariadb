@@ -29,28 +29,28 @@ Directory structure example :
 
 ### 5.5
 
-|                    | MariaDB release date | Neard release | Download |
-| ------------------ |:--------------------:|:-------------:|:--------:|
-| **MariaDB 5.5.34** ![](https://raw.github.com/crazy-max/neard-bin-mariadb/master/img/star-20151214.png) | 2013/11/21 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-5.5.34-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.34-r1.zip) |
-| **MariaDB 5.5.43** | 2015/05/01 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-5.5.43-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.43-r1.zip) |
-| **MariaDB 5.5.46** | 2015/10/12 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-5.5.46-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.46-r1.zip) |
-| **MariaDB 5.5.48** | 2016/02/11 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | [neard-mariadb-5.5.48-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-5.5.48-r2.7z) |
+|                     | MariaDB release date | Neard release | Compatible since | Download |
+| ------------------- |:--------------------:|:-------------:|:----------------:|:--------:|
+| **MariaDB 5.5.34** ![](https://raw.github.com/crazy-max/neard-bin-mariadb/master/img/star-20151214.png) | 2013/11/21 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-5.5.34-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.34-r1.zip) |
+| **MariaDB 5.5.43**  | 2015/05/01 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-5.5.43-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.43-r1.zip) |
+| **MariaDB 5.5.46**  | 2015/10/12 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-5.5.46-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-5.5.46-r1.zip) |
+| **MariaDB 5.5.48**  | 2016/02/11 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | Neard 1.0.13 | [neard-mariadb-5.5.48-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-5.5.48-r2.7z) |
 
 ### 10.0
 
-|                     | MariaDB release date | Neard release | Download |
-| ------------------- |:--------------------:|:-------------:|:--------:|
-| **MariaDB 10.0.6**  | 2013/11/18 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-10.0.6-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.6-r1.zip) |
-| **MariaDB 10.0.19** | 2015/05/09 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-10.0.19-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.19-r1.zip) |
-| **MariaDB 10.0.22** | 2015/10/29 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-10.0.22-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.22-r1.zip) |
-| **MariaDB 10.0.24** | 2016/02/19 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | [neard-mariadb-10.0.24-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-10.0.24-r2.7z) |
+|                     | MariaDB release date | Neard release | Compatible since | Download |
+| ------------------- |:--------------------:|:-------------:|:----------------:|:--------:|
+| **MariaDB 10.0.6**  | 2013/11/18 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-10.0.6-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.6-r1.zip) |
+| **MariaDB 10.0.19** | 2015/05/09 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-10.0.19-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.19-r1.zip) |
+| **MariaDB 10.0.22** | 2015/10/29 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-10.0.22-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.0.22-r1.zip) |
+| **MariaDB 10.0.24** | 2016/02/19 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | Neard 1.0.13 | [neard-mariadb-10.0.24-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-10.0.24-r2.7z) |
 
 ### 10.1
 
-|                     | MariaDB release date | Neard release | Download |
-| ------------------- |:--------------------:|:-------------:|:--------:|
-| **MariaDB 10.1.9**  | 2015/11/23 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | [neard-mariadb-10.1.9-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.1.9-r1.zip) |
-| **MariaDB 10.1.13** | 2016/03/25 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | [neard-mariadb-10.1.13-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-10.1.13-r2.7z) |
+|                     | MariaDB release date | Neard release | Compatible since | Download |
+| ------------------- |:--------------------:|:-------------:|:----------------:|:--------:|
+| **MariaDB 10.1.9**  | 2015/11/23 | [r1](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r1) | Neard 1.0.13 | [neard-mariadb-10.1.9-r1.zip](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r1/neard-mariadb-10.1.9-r1.zip) |
+| **MariaDB 10.1.13** | 2016/03/25 | [r2](https://github.com/crazy-max/neard-bin-mariadb/releases/tag/r2) | Neard 1.0.13 | [neard-mariadb-10.1.13-r2.7z](https://github.com/crazy-max/neard-bin-mariadb/releases/download/r2/neard-mariadb-10.1.13-r2.7z) |
 
 ## Sources
 
