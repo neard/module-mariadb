@@ -1,6 +1,6 @@
 # Changelog
 
-### **[Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binMariaDB#latest) before downloading.**
+### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binMariaDB#latest) before downloading.
 
 ## r3 (2016/05/01)
 
