@@ -4,7 +4,7 @@
 
 ## r3 (2016/05/01)
 
-* Add params in `neard.conf` file for Neard 1.0.19 to change root password
+* Add params in `neard.conf` file for Neard 1.0.19 to change root password ([Issue #134](https://github.com/crazy-max/neard/issues/134))
 
 ## r2 (2016/04/17)
 
