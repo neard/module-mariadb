@@ -2,6 +2,10 @@
 
 ### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binMariaDB#latest) before downloading.
 
+## r4 (2016/06/20)
+
+* New bundles : 5.5.50, 10.0.25, 10.1.14
+
 ## r3 (2016/05/01)
 
 * Add params in `neard.conf` file for Neard 1.0.19 to change root password ([Issue #134](https://github.com/crazy-max/neard/issues/134))
