@@ -2,6 +2,10 @@
 
 ### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binMariaDB#latest) before downloading.
 
+## r7 (2016/11/28)
+
+* New bundles : 5.5.53, 10.0.28, 10.1.19
+
 ## r6 (2016/10/09)
 
 * New bundles : 5.5.52, 10.0.27, 10.1.18
