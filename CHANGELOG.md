@@ -1,7 +1,5 @@
 # Changelog
 
-### [Check compatibility with Neard](https://github.com/crazy-max/neard/wiki/binMariaDB#latest) before downloading.
-
 ## r7 (2016/11/28)
 
 * New bundles : 5.5.53, 10.0.28, 10.1.19
@@ -21,7 +19,7 @@
 
 ## r3 (2016/05/01)
 
-* Add params in `neard.conf` file for Neard 1.0.19 to change root password ([Issue #134](https://github.com/crazy-max/neard/issues/134))
+* Add params in `neard.conf` file for Neard 1.0.19 to change root password (Issue #134)
 
 ## r2 (2016/04/17)
 
@@ -30,7 +28,7 @@
 
 ## r1 (2015/12/07)
 
-* Init repo with MariaDB bundles from [Neard](https://github.com/crazy-max/neard)
+* Init repo with MariaDB bundles from Neard
 * New bundle : 5.5.46, 10.0.22, 10.1.9
 * Fix InnoDB data corrupted on 10.0 and 10.1 releases
 * Create template files (.nrd) for future Neard release
