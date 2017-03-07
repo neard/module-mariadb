@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="neard-bin-mariadb" basedir=".">
   
-  <dirname property="project.basedir" file="${ant.file.neard-bin-mariadb}" />
-  <property name="root.dir" location="${project.basedir}/.." />
-  <property name="build.properties" value="${project.basedir}/build.properties" />
-  <property file="${build.properties}" />
+  <dirname property="project.basedir" file="${ant.file.neard-bin-mariadb}"/>
+  <property name="root.dir" location="${project.basedir}/.."/>
+  <property name="build.properties" value="${project.basedir}/build.properties"/>
+  <property file="${build.properties}"/>
   
   <!-- Neard dev -->
-  <property name="neard-dev.path" location="${root.dir}/neard-dev" />
-  <fail unless="neard-dev.path" message="Project 'neard-dev' not found in ${neard-dev.path}" />
-  <echo message="Neard dev found in ${neard-dev.path}" level="debug" /> 
+  <property name="neard-dev.path" location="${root.dir}/neard-dev"/>
+  <fail unless="neard-dev.path" message="Project 'neard-dev' not found in ${neard-dev.path}"/>
+  <echo message="Neard dev found in ${neard-dev.path}" level="debug"/> 
   
   <!-- Import build-commons.xml -->
-  <import file="${neard-dev.path}/build/build-commons.xml" />
+  <import file="${neard-dev.path}/build/build-commons.xml"/>
   <!-- Import build-bundle.xml -->
-  <import file="${neard-dev.path}/build/build-bundle.xml" />
+  <import file="${neard-dev.path}/build/build-bundle.xml"/>
   
   <target name="release.build">
     <basename property="bundle.folder" file="${bundle.path}"/>
@@ -23,12 +23,7 @@
     <getbundlesrc name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
     
     <propertyregex property="bundle.srcbasename" input="${bundle.srcfilename}" regexp="(.*)\.(.*)" select="\1"/>
-    <if>
-      <not><available file="${bundle.srcdest}/${bundle.srcbasename}/bin/mysqld.exe" type="file"/></not>
-      <then>
-        <fail message="File not found: ${bundle.srcdest}/${bundle.srcbasename}/bin/mysqld.exe"/>
-      </then>
-    </if>
+    <assertfile file="${bundle.srcdest}/${bundle.srcbasename}/bin/mysqld.exe"/>
     
     <!-- Init data directory -->
     <delete dir="${bundle.srcdest}/${bundle.srcbasename}/data"/>
@@ -40,7 +35,7 @@
     <delete dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
-      <fileset dir="${bundle.srcdest}/${bundle.srcbasename}" defaultexcludes="yes" excludes="
+      <fileset dir="${bundle.srcdest}/${bundle.srcbasename}" excludes="
         data/aria_log*,
         data/*.err,
         data/my.ini,
@@ -56,6 +51,8 @@
         **/*.lib,
         **/*.pdb"
       />
+    </copy>
+    <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
       <fileset dir="${bundle.path}" defaultexcludes="yes"/>
     </copy>
   </target>
