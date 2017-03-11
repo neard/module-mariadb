@@ -20,7 +20,7 @@
     <basename property="bundle.folder" file="${bundle.path}"/>
     <replaceproperty src="bundle.folder" dest="bundle.version" replace="${bundle.name}" with=""/>
     
-    <getbundlesrc name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
+    <getmoduleuntouched name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
     
     <propertyregex property="bundle.srcbasename" input="${bundle.srcfilename}" regexp="(.*)\.(.*)" select="\1"/>
     <assertfile file="${bundle.srcdest}/${bundle.srcbasename}/bin/mysqld.exe"/>
