@@ -1,5 +1,10 @@
 # Changelog
 
+## r9 (2017/04/13)
+
+* New bundles : 10.0.30, 10.1.22 (Issue crazy-max/neard#246)
+* Include all locales (Issue crazy-max/neard#241)
+
 ## r8 (2017/01/26)
 
 * New bundles : 5.5.54, 10.0.29, 10.1.21 (Issue #212)

@@ -36,6 +36,7 @@
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <copy todir="${bundle.tmp.prep.path}/${bundle.folder}" overwrite="true">
       <fileset dir="${bundle.srcdest}/${bundle.srcbasename}" excludes="
+        data/test/**,
         data/aria_log*,
         data/*.err,
         data/my.ini,
