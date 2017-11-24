@@ -1,7 +1,7 @@
-[![GitHub release](https://img.shields.io/github/release/crazy-max/neard-bin-mariadb.svg?style=flat-square)](https://github.com/crazy-max/neard-bin-mariadb/releases/latest)
-![Total downloads](https://img.shields.io/github/downloads/crazy-max/neard-bin-mariadb/total.svg?style=flat-square)
+[![GitHub release](https://img.shields.io/github/release/neard/module-mariadb.svg?style=flat-square)](https://github.com/neard/module-mariadb/releases/latest)
+![Total downloads](https://img.shields.io/github/downloads/neard/module-mariadb/total.svg?style=flat-square)
 
-This is a module of [Neard project](https://github.com/crazy-max/neard) involving MariaDB.
+This is a module of [Neard project](https://github.com/neard/neard) involving MariaDB.
 
 ## Documentation and downloads
 
@@ -9,4 +9,4 @@ http://neard.io/modules/mariadb
 
 ## Issues
 
-Issues must be reported on [Neard repository](https://github.com/crazy-max/neard/issues).
+Issues must be reported on [Neard repository](https://github.com/neard/neard/issues).
