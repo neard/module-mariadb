@@ -5,7 +5,7 @@ This is a module of [Neard project](https://github.com/neard/neard) involving Ma
 
 ## Documentation and downloads
 
-http://neard.io/modules/mariadb
+https://neard.io/modules/mariadb
 
 ## Issues
 
